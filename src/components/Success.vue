@@ -30,7 +30,7 @@
 				lists:null
 			}
 		},
-		beforeCreate(){
+		created(){
 			this.$store.commit('token_status');
 			// if(this.state.token);
 			// console.log();
@@ -84,5 +84,8 @@
 	h3{
 		padding: 50px 0 10px;
 		border-bottom: 1px solid #ccc;
+	}
+	img{
+		width: 100%
 	}
 </style>
