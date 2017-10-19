@@ -1,7 +1,7 @@
 <template>
 	<div class="success">
 		<h3>驾考宝典</h3>
-		<weather></weather>
+		<times></times>
 		<!--笑话列表-->
 		<ul>
 			<li v-for="(list,$index) in lists" type="1">
@@ -21,7 +21,7 @@
 	</div>
 </template>
 <script>
-	import weather from './Weather';
+	import times from './Times';
 	export default {
 		name:'success',
 		data(){
@@ -77,7 +77,7 @@
 				}
 			}
 		},
-		components:{ weather }
+		components:{ times }
 	}
 </script>
 <style scoped>
